@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<project version="2">
+	<pipeline>
+		<pass name="Shader" type="shader" active="true">
+			<shader type="vs" path="shaders/ray_marching_VS.glsl" entry="main" />
+			<shader type="ps" path="shaders/ray_marching_PS.glsl" entry="main" />
+			<inputlayout>
+				<item value="Position" semantic="POSITION" />
+			</inputlayout>
+			<rendertexture />
+			<items>
+				<item name="Quad" type="geometry">
+					<type>ScreenQuadNDC</type>
+					<width>1</width>
+					<height>1</height>
+					<depth>1</depth>
+					<topology>TriangleList</topology>
+				</item>
+			</items>
+			<itemvalues />
+			<variables>
+				<variable type="float2" name="uResolution" system="ViewportSize" />
+				<variable type="float" name="uTime" system="Time" />
+			</variables>
+			<macros />
+		</pass>
+	</pipeline>
+	<objects />
+	<cameras />
+	<settings>
+		<entry type="property" name="Shader" item="pipe" />
+		<entry type="file" name="Shader" shader="vs" />
+		<entry type="file" name="Shader" shader="ps" />
+		<entry type="camera" fp="false">
+			<distance>50</distance>
+			<pitch>89</pitch>
+			<yaw>284</yaw>
+			<roll>360</roll>
+		</entry>
+		<entry type="clearcolor" r="0" g="0" b="0" a="0" />
+		<entry type="usealpha" val="false" />
+	</settings>
+	<plugindata />
+</project>
