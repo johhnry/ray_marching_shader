@@ -3,6 +3,7 @@
 A GLSL implementation of the [ray marching algorithm](http://jamie-wong.com/2016/07/15/ray-marching-signed-distance-functions/)
 
 ![planet gif](img/planet.gif)
+
 (the final gif was composited in [Blender](blender.org) for bloom and lens distortion effects)
 
 ## Description
@@ -19,7 +20,7 @@ This project was made using [SHADERed](https://shadered.org/), an open source fu
 
 ### Installing
 
-You can install SHADERed [here](https://github.com/dfranx/SHADERed/releases/download/).
+You can install SHADERed [here](https://github.com/dfranx/SHADERed/releases).
 
 ### Executing program
 
