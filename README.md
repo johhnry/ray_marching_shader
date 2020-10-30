@@ -37,3 +37,11 @@ The shaders are located here :
     ├── ray_marching_PS.glsl
     └── ray_marching_VS.glsl
 ```
+
+### Ressources
+
+- https://computergraphics.stackexchange.com/questions/161/what-is-ray-marching-is-sphere-tracing-the-same-thing/163
+- https://michaelwalczyk.com/blog-ray-marching.html
+- https://www.iquilezles.org/www/articles/raymarchingdf/raymarchingdf.htm (co founder of ShaderToy and guru of ray marching!)
+- https://github.com/electricsquare/raymarching-workshop
+- https://www.thebookofshaders.com/
